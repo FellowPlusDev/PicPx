@@ -54,5 +54,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         task.resume()
     }
+    
+    func application(sender: NSApplication, openFile filename: String) -> Bool {
+        print("\(filename)")
+        return true
+    }
 }
 
