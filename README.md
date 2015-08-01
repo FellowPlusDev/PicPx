@@ -1,6 +1,7 @@
 # PicPx
 picpx.com 桌面客户端
 
+[Download app](https://github.com/FellowPlusDev/PicPx/releases/tag/1.0)
 # Env
 - Xcode 7 beta
 - Swift 2.0
