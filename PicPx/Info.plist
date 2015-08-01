@@ -15,8 +15,6 @@
 			<string>public.image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
-			<key>LSIsAppleDefaultForType</key>
-			<true/>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
