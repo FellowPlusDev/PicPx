@@ -20,6 +20,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 */xcuserdata/
+PicPx.xcodeproj/project.xcworkspace/xcuserdata/
 
 # CocoaPods
 #
