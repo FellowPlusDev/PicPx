@@ -96,7 +96,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
         request.HTTPMethod = "POST"
         request.HTTPBody = data
         
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: completionHandler!)!
+        let task = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: completionHandler!)
         
         task.resume()
     }
@@ -124,7 +124,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
         request.HTTPMethod = "POST"
         request.HTTPBody = uploadData
         
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: completionHandler!)!
+        let task = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: completionHandler!)
         
         task.resume()
     }
